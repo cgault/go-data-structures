@@ -1,4 +1,4 @@
-package heap
+package heaps
 
 // left child is alwasy an odd number
 // parent index x 2 + 1 = left child index

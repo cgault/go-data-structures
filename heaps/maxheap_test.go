@@ -1,14 +1,14 @@
-package heap_test
+package heaps_test
 
 import (
 	"fmt"
 	"testing"
 
-	"github.com/cgault/go-data-structures/heap"
+	"github.com/cgault/go-data-structures/heaps"
 )
 
 func Test(t *testing.T) {
-	m := &heap.MaxHeap{}
+	m := &heaps.MaxHeap{}
 	fmt.Println(m)
 	buildHeap := []int{10, 20, 30, 5, 7, 9, 11, 13, 15, 17}
 	for _, v := range buildHeap {
